@@ -1,2 +1,8 @@
-# christmas-coding-challege
-Coding for at least an hour per day until Christmas this is a Women Who Code Challenge - I'm doing Problem solving questions
+# christmas-coding-challenge
+Coding for at least an hour per day until Christmas! 
+
+This is a Women Who Code Challenge
+
+2023-12-02
+- counter.js | 2620
+- create-hello-world.js | 2667
