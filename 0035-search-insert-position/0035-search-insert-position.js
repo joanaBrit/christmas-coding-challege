@@ -22,13 +22,11 @@ let searchInsert = function(nums, target) {
             // if nums middle = target return middle
                 return middle
             } else if (nums[middle] < target){
-            // if nums middle < target adjust the start point to be middle, and repeat process again for the new start and end points.
+            // if nums middle < target adjust the start point to be middle
                 startPoint = middle + 1
-            // console.log('Less than middle at index ' + middle + ' new start at ' + startPoint)
             } else{
-            // if nums middle > target adjust the end point to be middle, and repeat process again
+            // if nums middle > target adjust the end point to be middle
              endPoint = middle - 1
-            // console.log('Greater than middle at index ' + middle + ' new end at ' + startPoint)
         }
          
      }
