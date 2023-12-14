@@ -12,7 +12,7 @@ let removeElement = function(nums, val) {
     for (let i = 0; i < nums.length; i++){
         // if the current element is not equal to the value.
         if (nums[i] !== val){
-        // swap it with the element at the second pointer
+        // swap numbers.
         nums[k] = nums[i]
         // increment the new pointer
         k++ 
