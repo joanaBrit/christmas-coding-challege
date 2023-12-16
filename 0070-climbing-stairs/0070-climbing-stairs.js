@@ -9,6 +9,7 @@
 // Fibonacci Fib(n) = Fib(n-1)+Fib(n-2)
 
 const climbStairs = function(n) {
+    // if n is equal to 0 or 1 return 1
     if (n == 1 || n == 0) return 1
     
     let first = 1
